@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Download_Requisiciones_RQV
+</name>
+</assembly>
+<members>
+<member name="T:Download_Requisiciones_RQV.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Download_Requisiciones_RQV.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Download_Requisiciones_RQV.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Download_Requisiciones_RQV.Download_Requisiciones_RQV.insercion_Datos_Principales_ION(System.Data.DataSet@)">
+ <summary>
+ Envia los datos principales a ION limpiando previamente el registro a sobreescribir
+ </summary>
+</member>
+<member name="M:Download_Requisiciones_RQV.ModuloORACLE.ejecutar_SP_Oracle(System.String)">
+ <summary>
+ Ejecuta un SP generico sin parametros
+ </summary>
+ <param name="spOracle"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

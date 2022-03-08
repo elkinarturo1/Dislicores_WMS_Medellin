@@ -1,0 +1,39 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://192.168.0.105:8081/WMS_WSUNOEE_ODISEO/WSUNOEE.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "messageContract": true,
+    "namespaceMappings": [
+      "*, WSUNOEE"
+    ],
+    "references": [
+      "MatBlazor, {MatBlazor, 2.8.0}",
+      "Microsoft.AspNetCore.Authorization, {Microsoft.AspNetCore.Authorization, 6.0.0}",
+      "Microsoft.AspNetCore.Components, {Microsoft.AspNetCore.Components, 6.0.0}",
+      "Microsoft.AspNetCore.Components.Forms, {Microsoft.AspNetCore.Components.Forms, 6.0.0}",
+      "Microsoft.AspNetCore.Components.Web, {Microsoft.AspNetCore.Components.Web, 6.0.0}",
+      "Microsoft.AspNetCore.Metadata, {Microsoft.AspNetCore.Metadata, 6.0.0}",
+      "Microsoft.Bcl.AsyncInterfaces, {Microsoft.Bcl.AsyncInterfaces, 6.0.0}",
+      "Microsoft.Extensions.DependencyInjection, {Microsoft.Extensions.DependencyInjection, 6.0.0}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 6.0.0}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 6.0.0}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 6.0.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 6.0.0}",
+      "Microsoft.JSInterop, {Microsoft.JSInterop, 6.0.0}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 13.0.1}",
+      "Radzen.Blazor, {Radzen.Blazor, 3.15.2}",
+      "System.IO.Pipelines, {System.IO.Pipelines, 6.0.0}",
+      "System.Linq.Dynamic.Core, {System.Linq.Dynamic.Core, 1.2.12}",
+      "System.Runtime.CompilerServices.Unsafe, {System.Runtime.CompilerServices.Unsafe, 6.0.0}",
+      "Tewr.Blazor.FileReader, {Tewr.Blazor.FileReader, 3.3.0.21348}"
+    ],
+    "sync": true,
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

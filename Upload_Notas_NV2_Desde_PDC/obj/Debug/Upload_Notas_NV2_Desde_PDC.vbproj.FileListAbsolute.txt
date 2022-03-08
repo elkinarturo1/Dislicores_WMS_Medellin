@@ -1,0 +1,23 @@
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.vbproj.AssemblyReference.cache
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.Resources.resources
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.vbproj.GenerateResource.cache
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.vbproj.CoreCompileInputs.cache
+D:\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.exe.config
+D:\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.exe
+D:\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.pdb
+D:\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.xml
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.exe
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.xml
+D:\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\bin\Debug\Upload_Notas_NV2_Desde_PDC.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.vbproj.AssemblyReference.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.Upload_Notas_NV2_Desde_PDC.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Notas_NV2_Desde_PDC\obj\Debug\Upload_Notas_NV2_Desde_PDC.pdb

@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Upload_Notas_NV2_Desde_PDC_WSUNOEE_WSUNOEE" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.100.24:9091/WSUNOEE_EUCLIDES_WMS/WSUNOEE.asmx</Value>
+    </Setting>
+    <Setting Name="Upload_Notas_NV2_Desde_PDC_WSGT_wsGenerarPlano" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.54:8082/ServiciosWeb/wsGenerarPlano.asmx</Value>
+    </Setting>
+    <Setting Name="EnviarDatosUNOEE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="tiempoEsperaPaquete" Type="System.String" Scope="User">
+      <Value Profile="(Default)">300000</Value>
+    </Setting>
+    <Setting Name="strConexionSiesa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SIESA_ATENEA</Value>
+    </Setting>
+    <Setting Name="strUsuarioSiesa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wms.integracion</Value>
+    </Setting>
+    <Setting Name="strClaveSiesa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Wms2020</Value>
+    </Setting>
+    <Setting Name="strConexionSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=192.168.0.54;Initial Catalog=WMS;User ID=sa;Password=D1sl1c0r3s;Integrated Security=False</Value>
+    </Setting>
+    <Setting Name="numeroPaquetesCorte" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

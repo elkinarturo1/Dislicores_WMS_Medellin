@@ -1,0 +1,24 @@
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.exe.config
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.exe
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.pdb
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.xml
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.AssemblyReference.cache
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.Resources.resources
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.GenerateResource.cache
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.CoreCompileInputs.cache
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.exe
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.xml
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.pdb
+D:\Proyectos_Dislicores\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.Upload_Ajustes_AIC.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.AssemblyReference.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.Upload_Ajustes_AIC.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.pdb

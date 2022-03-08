@@ -1,0 +1,23 @@
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\bin\Release\Download_Receptores.exe.config
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\bin\Release\Download_Receptores.exe
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\bin\Release\Download_Receptores.pdb
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\bin\Release\Download_Receptores.xml
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.Download_Receptor.resources
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.Resources.resources
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.vbproj.GenerateResource.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.vbproj.CoreCompileInputs.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.exe
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.xml
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Receptores\obj\Release\Download_Receptores.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\bin\Release\Download_Receptores.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\bin\Release\Download_Receptores.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\bin\Release\Download_Receptores.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\bin\Release\Download_Receptores.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.vbproj.AssemblyReference.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.Download_Receptor.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Receptores\obj\Release\Download_Receptores.pdb

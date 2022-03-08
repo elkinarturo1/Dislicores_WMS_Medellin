@@ -1,0 +1,311 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Upload_Comprometer_RQI_Transferir_TBV
+</name>
+</assembly>
+<members>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.GenerarPlanoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosDSCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasDSCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.GenerarPlanoXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSGT.wsGenerarPlano.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.GenerarPlanoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.GenerarPlanoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.GenerarPlanoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.GenerarPlanoXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.GenerarPlanoXMLCompletedEventArgs.strResultado">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSGT.ImportarDatosTablasDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.CrearConexionXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.EjecutarConsultaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.LeerEsquemaParametrosCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaCFDCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.ImportarXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.InicializarVariablesImportacionCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaWEBContabilizarCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.CrearConexionXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.EjecutarConsultaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.LeerEsquemaParametros(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaCFD(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.ImportarXML(System.String,System.Int16@)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.InicializarVariablesImportacion">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaWEBContabilizar(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.WSUNOEE.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.CrearConexionXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.CrearConexionXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.CrearConexionXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.EjecutarConsultaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.LeerEsquemaParametrosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.SiesaCFDCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.SiesaCFDCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.SiesaCFDCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.ImportarXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.ImportarXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.ImportarXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.ImportarXMLCompletedEventArgs.printTipoError">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.InicializarVariablesImportacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.SiesaWEBContabilizarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Comprometer_RQI_Transferir_TBV.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

@@ -1,0 +1,129 @@
+﻿@page "/Commercial_Effectiveness/InfoSitiData"
+@inject IJSRuntime JSRuntime
+
+<h3>InfoSitiData</h3>
+
+@if (ListadoResultados != null)
+{
+
+    @*<RadzenButton Text="Export XLS" Icon="grid_on" Click="@(args => Export("excel"))" Class="mb-4 mr-2" /><RadzenButton Text="Export CSV" Icon="wrap_text" Click="@(args => Export("csv"))" Class="mb-4" />*@
+
+    <RadzenButton Text="Export a Excel" Icon="grid_on" Click="generarExcel" Class="mb-4 mr-2" />
+
+    <RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" Data="@ListadoResultados" TItem="ClientesGeolocalizados_Model" ColumnWidth="200px"
+            PageSize="5" AllowPaging="true" AllowSorting="true">
+        <Columns>
+
+            @*<RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="id" Title="id Control" Width="15%" />
+                <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="ts" Title="ts" Width="15%" />*@
+            @*<RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="fechaPeticion" Title="fechaPeticion" Width="15%" />*@
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="idTercero" Title="Tercero" Width="13%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="idSucursal" Title="Sucursal" Width="13%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="direccion" Title="direccion" Width="30%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="codigoPostal" Title="codigoPostal" Width="15%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="latitud" Title="latitud" Width="12%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="longitud" Title="longitud" Width="13%" />
+            @*<RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="estrato" Title="estrato" Width="15%" />
+                <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="barrio" Title="barrio" Width="15%" />
+                <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="comunaLocalidad" Title="comunaLocalidad" Width="15%" />
+                <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="zonaLogistica" Title="zonaLogistica" Width="15%" />
+                <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="diasEntrega" Title="diasEntrega" Width="15%" />*@
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="Zona1" Title="Zona1" Width="10%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="Zona2" Title="Zona2" Width="10%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="Zona3" Title="Zona3" Width="10%" />
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="Zona4" Title="Zona4" Width="10%" />
+            @*<RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="bitError" Title="bitError" Width="15%" />*@
+            <RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="resultadoSitiData" Title="resultadoSitiData" Width="25%" />
+            @*<RadzenGridColumn TItem="ClientesGeolocalizados_Model" Property="detalle" Title="detalle" Width="15%" />*@
+
+        </Columns>
+    </RadzenGrid>
+
+}
+
+@code {
+    List<ClientesGeolocalizados_Model> ListadoResultados;
+    RespuestaJson respuestaJson = new RespuestaJson();
+    string respuestaImportacion = "";
+    DataSet ds = new DataSet();
+    DataTable dtDatosFiltrados;
+    string numControl = "-1";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await consultarInicial();
+    }
+
+    public async Task consultarInicial()
+    {
+
+        Georreferenciacion_Bl georreferenciacion_Bl = new Georreferenciacion_Bl();
+
+        try
+        {
+            respuestaJson = georreferenciacion_Bl.consultarClientes();
+            //respuestaJson = await clienteHTTP.GetFromJsonAsync<RespuestaJson>($"/WMS_Ajustes/importarAjusteimportarAjusteimportarAjuste");
+            //respuestaJson = await clienteHTTP.GetFromJsonAsync<RespuestaJson>($"/WMS_Ajustes/importarAjuste");
+
+            if (respuestaJson.bitError == false)
+            {
+                ListadoResultados = (List<ClientesGeolocalizados_Model>)respuestaJson.datos;
+                //ListadoResultados = JsonSerializer.Deserialize<List<AjustesModel>>(respuestaJson.datos.ToString());
+            }
+            else
+            {
+                //await JSRuntime.MensajeProcesoError(respuestaJson.resultado);
+            }
+
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.MensajeProcesoError(ex.Message);
+        }
+
+        StateHasChanged();
+    }
+
+    public void generarExcel()
+    {
+        Georreferenciacion_Bl georreferenciacion_Bl = new Georreferenciacion_Bl();
+
+        string nombreArchivo = "";
+
+        try
+        {
+            respuestaJson = georreferenciacion_Bl.generarExcelClientes();
+            nombreArchivo = respuestaJson.resultado;
+            descargarPlantillaUN(nombreArchivo);
+        }
+        catch (Exception ex)
+        {
+
+        }
+
+    }
+
+
+    protected async Task descargarPlantillaUN(string nombreArchivoServidor)
+    {
+
+        try
+        {
+            string strNombreArchivoCliente = $"PlantillaUN_{DateTime.Now.ToString("yyyyMMddmmssff")}";
+            await JSRuntime.InvokeAsync<object>("descargarArchivo", strNombreArchivoCliente, $"Excel\\" + nombreArchivoServidor);
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            StateHasChanged();
+            JSRuntime.MensajeProcesoError(ex.Message);
+        }
+    }
+
+
+    //public void Export(string type)
+    //{
+    //    service.Export("OrderDetails", type, new Query() { OrderBy = grid.Query.OrderBy, Filter = grid.Query.Filter });
+    //}
+
+}

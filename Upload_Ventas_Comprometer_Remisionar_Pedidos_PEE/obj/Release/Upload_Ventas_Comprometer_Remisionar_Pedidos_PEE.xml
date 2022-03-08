@@ -1,0 +1,311 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE
+</name>
+</assembly>
+<members>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.GenerarPlanoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosDSCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasDSCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.GenerarPlanoXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.wsGenerarPlano.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.GenerarPlanoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.GenerarPlanoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.GenerarPlanoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.GenerarPlanoXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.GenerarPlanoXMLCompletedEventArgs.strResultado">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSGT.ImportarDatosTablasDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.CrearConexionXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.EjecutarConsultaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.LeerEsquemaParametrosCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaCFDCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.ImportarXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.InicializarVariablesImportacionCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaWEBContabilizarCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.CrearConexionXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.EjecutarConsultaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.LeerEsquemaParametros(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaCFD(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.ImportarXML(System.String,System.Int16@)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.InicializarVariablesImportacion">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaWEBContabilizar(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.WSUNOEE.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.CrearConexionXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.CrearConexionXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.CrearConexionXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.EjecutarConsultaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.LeerEsquemaParametrosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.SiesaCFDCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.SiesaCFDCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.SiesaCFDCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.ImportarXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.ImportarXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.ImportarXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.ImportarXMLCompletedEventArgs.printTipoError">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.InicializarVariablesImportacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.SiesaWEBContabilizarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Ventas_Comprometer_Remisionar_Pedidos_PEE.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

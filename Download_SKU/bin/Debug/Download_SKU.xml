@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Download_SKU
+</name>
+</assembly>
+<members>
+<member name="T:Download_SKU.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Download_SKU.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Download_SKU.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Download_SKU.ModuloORACLE.ejecutar_SP_Oracle(System.String)">
+ <summary>
+ Ejecuta un SP generico sin parametros
+ </summary>
+ <param name="spOracle"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

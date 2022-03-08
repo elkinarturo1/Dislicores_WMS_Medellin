@@ -1,0 +1,12 @@
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\bin\Release\Download_Desensambles_DES.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\bin\Release\Download_Desensambles_DES.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\bin\Release\Download_Desensambles_DES.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\bin\Release\Download_Desensambles_DES.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.vbproj.AssemblyReference.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.Download_Desensambles_DES.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Desensambles_DES\obj\Release\Download_Desensambles_DES.pdb

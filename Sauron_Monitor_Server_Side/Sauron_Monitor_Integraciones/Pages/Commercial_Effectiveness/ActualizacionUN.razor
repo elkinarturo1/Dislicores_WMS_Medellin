@@ -1,0 +1,336 @@
+﻿@page "/Commercial_Effectiveness/ActualizacionUN"
+@inject IJSRuntime JSRuntime
+
+@if (bitVisualizarDisplay)
+{
+    <DivCargando />
+}
+
+<div>
+
+    <h3>ActualizacionUN</h3>
+
+    <div style="width:300px;float:left;">
+        <select name="visorTablas" id="equiv" @bind="@idSeccion">
+            <option value="1">T_Equivalencias_Criterios_UN</option>
+            <option value="2">T_Equivalencias_Criterio_Nielse_D</option>
+            <option value="3">T_Equivalencias_NoTocar</option>
+        </select>
+    </div>
+
+
+    <div>
+
+        <div style="float:left;width:250px;margin-left:50px;margin-right:50px;">
+            <DescargarArchivo />
+        </div>
+
+        <div style="float:left">
+            <SubirArchivo />
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    @if (ListadoResultados != null)
+    {
+
+        if (idSeccion == 1)
+        {
+
+            <RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" Data="@ListadoResultados.listado_Equiv_UN" TItem="T_Equivalencias_Criterios_UN" ColumnWidth="200px"
+                PageSize="38" AllowPaging="true" AllowSorting="true"
+                Style="width:4000px">
+                <Columns>
+
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="id" Title="id" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_Canal" Title="idPlan_Canal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_Canal" Title="descPlan_Canal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_Canal" Title="idCriterio_Canal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_Canal" Title="descCriterio_Canal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_SubCanal" Title="idPlan_SubCanal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_SubCanal" Title="descPlan_SubCanal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_SubCanal" Title="idCriterio_SubCanal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_SubCanal" Title="descCriterio_SubCanal" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_Segmento" Title="idPlan_Segmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_Segmento" Title="descPlan_Segmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_Segmento" Title="idCriterio_Segmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_Segmento" Title="descCriterio_Segmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_SubSegmento" Title="idPlan_SubSegmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_SubSegmento" Title="descPlan_SubSegmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_SubSegmento" Title="idCriterio_SubSegmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_SubSegmento" Title="descCriterio_SubSegmento" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_Canal_Diageo" Title="idPlan_Canal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_Canal_Diageo" Title="descPlan_Canal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_Canal_Diageo" Title="idCriterio_Canal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_Canal_Diageo" Title="descCriterio_Canal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_SubCanal_Diageo" Title="idPlan_SubCanal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_SubCanal_Diageo" Title="descPlan_SubCanal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_SubCanal_Diageo" Title="idCriterio_SubCanal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_SubCanal_Diageo" Title="descCriterio_SubCanal_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_Segmento_Diageo" Title="idPlan_Segmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_Segmento_Diageo" Title="descPlan_Segmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_Segmento_Diageo" Title="idCriterio_Segmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_Segmento_Diageo" Title="descCriterio_Segmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idPlan_SubSegmento_Diageo" Title="idPlan_SubSegmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descPlan_SubSegmento_Diageo" Title="descPlan_SubSegmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="idCriterio_SubSegmento_Diageo" Title="idCriterio_SubSegmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="descCriterio_SubSegmento_Diageo" Title="descCriterio_SubSegmento_Diageo" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="codUN" Title="codUN" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="UN" Title="UN" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="codCanalCliente" Title="codCanalCliente" Width="100%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterios_UN" Property="canalCliente" Title="canalCliente" Width="100%" />
+
+                </Columns>
+            </RadzenGrid>
+        }
+
+
+
+        if (idSeccion == 2)
+        {
+            <RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" Data="@ListadoResultados.listado_Equiv_NielsenD" TItem="T_Equivalencias_Criterio_Nielse_D" ColumnWidth="200px"
+                PageSize="38" AllowPaging="true" AllowSorting="true"
+                Style="width:1200px">
+                <Columns>
+
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="id" Title="id" Width="8%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="CODIGO_VENDEDOR" Title="idCrit Vendedor" Width="12%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="DESCRIPCION_VENDEDOR" Title="Vendedor" Width="48" />
+@*                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="CODIGO_PLAN" Title="idPlan NielsenD" Width="10%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="DESCRIPCION_PLAN" Title="Plan NielsenD" Width="25%" />*@
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="CODIGO_CRITERIO" Title="idCriterio NielsenD" Width="12%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Property="DESC_CRITERIO" Title="NielsenD" Width="22%" />
+
+                      <RadzenGridColumn TItem="T_Equivalencias_Criterio_Nielse_D" Title="Enviar" Width="15%">
+                        <Template Context="data">
+                              <a href="/Actualizar_NielsenD_x_Vendedor/@data.CODIGO_VENDEDOR"><RadzenButton Text="Actualizar" /></a>
+                        </Template>
+                    </RadzenGridColumn>
+
+                </Columns>
+            </RadzenGrid>
+        }
+
+
+        if (idSeccion == 3)
+        {
+            <RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" Data="@ListadoResultados.listado_Equiv_NoTocar" TItem="T_Equivalencias_NoTocar" ColumnWidth="200px"
+                PageSize="38" AllowPaging="true" AllowSorting="true"
+                Style="width:1200px">
+                <Columns>
+
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="id" Title="id" Width="10%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="CODIGO_VENDEDOR" Title="idPlan_Canal" Width="10%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="DESCRIPCION_VENDEDOR" Title="descPlan_Canal" Width="35%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="CODIGO_PLAN" Title="idCriterio_Canal" Width="10%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="DESCRIPCION_PLAN" Title="descCriterio_Canal" Width="25%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="CODIGO_CRITERIO" Title="idPlan_SubCanal" Width="10%" />
+                    <RadzenGridColumn TItem="T_Equivalencias_NoTocar" Property="DESC_CRITERIO" Title="descPlan_SubCanal" Width="30%" />
+
+                </Columns>
+            </RadzenGrid>
+        }
+
+    }
+
+</div>
+
+
+
+@code {
+
+    bool bitVisualizarDisplay = false;
+    UN_Update_Model ListadoResultados;
+    //List<T_Equivalencias_Criterios_UN> listado_Equiv_UN;
+    //List<T_Equivalencias_Criterio_Nielse_D> listado_Equiv_NielsenD;
+    //List<T_Equivalencias_NoTocar> listado_Equiv_NoTocar;
+    public int idSeccion = 1;
+    RespuestaJson respuestaJson = new RespuestaJson();
+    DataSet ds = new DataSet();
+    DataTable dtDatosFiltrados;
+    string numControl = "-1";
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await consultarInicial();
+    }
+
+
+    public async Task consultarInicial()
+    {
+
+        ActualizacionUN_Bl actualizacionUN_BI = new ActualizacionUN_Bl();
+        bitVisualizarDisplay = true;
+
+        try
+        {
+            respuestaJson = actualizacionUN_BI.consultarEquivalenciasUN();
+
+            if (respuestaJson.bitError == false)
+            {
+
+                ListadoResultados = (UN_Update_Model)respuestaJson.datos;
+
+                //ListadoResultados = JsonConvert.DeserializeObject<UN_Update_Model>(respuestaJson.datos.ToString());
+                //ds = ModuloConversiones.xml_to_DataSet(respuestaJson.resultado);
+                //dtDatosFiltrados = ds.Tables[0];
+            }
+
+        }
+        catch (Exception ex)
+        {
+            respuestaJson.bitError = true;
+            respuestaJson.resultado = ex.Message;
+        }
+
+
+        bitVisualizarDisplay = false;
+        StateHasChanged();
+        if (respuestaJson.bitError == false)
+        {
+            //await JSRuntime.MensajeProcesoOK();
+        }
+        else
+        {
+            await JSRuntime.MensajeProcesoError(respuestaJson.resultado);
+        }
+
+    }
+
+    public void filtrarTablas()
+    {
+        StateHasChanged();
+    }
+
+
+    public async Task enviar(string idCriterioVendedor)
+    {
+
+        try
+        {
+
+            Realizar_Importacion_Siesa_Model objTraslado = new Realizar_Importacion_Siesa_Model();
+
+            objTraslado.strXML = ds.GetXml().ToString();
+            objTraslado.identificador = numControl;
+
+            //var response = await clienteHTTP.PostAsJsonAsync<List<Upload_Ajustes_Semestrales_Model>>("/WMS_Ajustes/importarAjuste", listadoDatosEnvio);
+            //var response = await clienteHTTP.PostAsJsonAsync<Realizar_Importacion_Siesa_Model>("/WMS_Upload_Traslados/realizarTraslado", objTraslado);
+            //respuestaJson = response.Content.ReadFromJsonAsync<RespuestaJson>().Result;
+
+            if (respuestaJson.bitError == false)
+            {
+
+                //await JSRuntime.MensajeProcesoOK();
+
+                //ListadoResultados = JsonConvert.DeserializeObject<List<Consulta_Inventario_WMS_Siesa_Model>>(respuestaJson.datos.ToString());
+                //ListadoResultados = JsonSerializer.Deserialize<List<AjustesModel>>(respuestaJson.datos.ToString());
+            }
+            else
+            {
+                await JSRuntime.MensajeProcesoError(respuestaJson.resultado);
+            }
+
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.MensajeProcesoError(ex.Message);
+        }
+
+        StateHasChanged();
+
+    }
+
+}
+
+
+@*    protected async Task descargarPlantillaNielsenD()
+    {
+    try
+    {
+    string strNombreArchivoCliente = $"PlantillaNielsenD_{DateTime.Now.ToString("yyyyMMddmmssff")}";
+    await JSRuntime.InvokeAsync<object>("descargarArchivo", strNombreArchivoCliente, $"Excel\\Plantilla Vendedores Nielsen D.xlsx");
+    }
+    catch (Exception ex)
+    {
+    JSRuntime.MensajeProcesoError(ex.Message);
+    }
+    }*@
+
+
+    @*public async Task filtrar()
+    {
+    try
+    {
+
+    if ((numControl == "-1") || (numControl == null) || (numControl.Trim() == ""))
+    {
+    dtDatosFiltrados = ds.Tables[0];
+    }
+    else
+    {
+    DataRow[] drDetalle = ds.Tables[0].Select($"id	 = '{numControl}'");
+    dtDatosFiltrados = drDetalle.CopyToDataTable();
+    }
+    }
+    catch (Exception ex)
+    {
+    await JSRuntime.MensajeProcesoError(ex.Message);
+    }
+    }*@
+
+
+@*<RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true" PageSize="20"
+    AllowSorting="true" Data="@ListadoResultados" TItem="AjustesModel" ColumnWidth="200px">
+    <Columns>
+
+    <RadzenGridColumn TItem="LoginModel" Property="Bodega" Title="Bodega" Width="40%" Filterable="true" />
+    <RadzenGridColumn TItem="LoginModel" Property="SKU" Title="SKU" Width="50%" Filterable="true" />*@
+
+@*<RadzenGridColumn TItem="UsuariosModel" Property="correo" Title="Email" Width="70%" />*@
+@*<RadzenGridColumn TItem="LoginModel" Context="item" Title="Correo" Bubble="false" Filterable="false" Sortable="false" TextAlign="TextAlign.Left" Width="50%">
+    <Template Context="item">
+    <RadzenTextArea @bind-Value="@item.correo" Style="width: 100%; font-size: 12px" ReadOnly="true" />
+    </Template>
+    </RadzenGridColumn>*@
+
+@*<RadzenGridColumn TItem="UsuariosModel" Property="telefono" Title="Teléfono" Width="40%" />*@
+@*<RadzenGridColumn TItem="LoginModel" Context="item" Title="Telefono" Bubble="false" Filterable="false" Sortable="false" TextAlign="TextAlign.Left" Width="30%">
+    <Template Context="item">
+    <RadzenTextArea @bind-Value="@item.telefono" Style="width: 100%; font-size: 12px" ReadOnly="true" />
+    </Template>
+    </RadzenGridColumn>*@
+
+@*<RadzenGridColumn TItem="UsuariosModel" Property="razonSocial" Title="Compania" Width="40%" />*@
+@*<RadzenGridColumn TItem="LoginModel" Context="item" Title="RazonSocial" Bubble="false" Filterable="false" Sortable="false" TextAlign="TextAlign.Left" Width="50%">
+    <Template Context="item">
+    <RadzenTextArea @bind-Value="@item.razonSocial" Style="width: 100%; font-size: 12px" ReadOnly="true" />
+    </Template>
+    </RadzenGridColumn>*@
+
+@*<RadzenGridColumn TItem="LoginModel" Context="item" Bubble="false" Filterable="false" Sortable="false" TextAlign="TextAlign.Left" Width="60%">
+    <Template Context="item">
+
+    <MatThemeProvider Theme="@singleton.temaEdit">
+    <a href="/usuariosEditar/@item.idCia/@item.idUsuario"><MatButton Icon="edit" Raised="true">Editar</MatButton></a>
+    </MatThemeProvider>
+
+    <MatThemeProvider Theme="@singleton.temaDanger">
+    <a href="/usuariosEliminar/@item.idCia/@item.idUsuario/1"><MatButton Icon="delete" Raised="true">Borrar</MatButton></a>
+    </MatThemeProvider>
+
+    </Template>*@
+
+@*</RadzenGridColumn>*@
+
+@*</Columns>
+    </RadzenGrid>*@

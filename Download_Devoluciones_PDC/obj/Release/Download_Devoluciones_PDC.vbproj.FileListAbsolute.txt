@@ -1,0 +1,12 @@
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\bin\Release\Download_Devoluciones_PDC.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\bin\Release\Download_Devoluciones_PDC.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\bin\Release\Download_Devoluciones_PDC.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\bin\Release\Download_Devoluciones_PDC.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.Download_Devoluciones_PDC.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_PDC\obj\Release\Download_Devoluciones_PDC.vbproj.AssemblyReference.cache

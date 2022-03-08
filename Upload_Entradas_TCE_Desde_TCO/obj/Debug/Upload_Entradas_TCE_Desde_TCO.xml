@@ -1,0 +1,311 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Upload_Entradas_TCE_Desde_TCO
+</name>
+</assembly>
+<members>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.GenerarPlanoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosDSCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasDSCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.GenerarPlanoXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSGT.wsGenerarPlano.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.GenerarPlanoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.GenerarPlanoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.GenerarPlanoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.GenerarPlanoXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.GenerarPlanoXMLCompletedEventArgs.strResultado">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSGT.ImportarDatosTablasDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.CrearConexionXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.EjecutarConsultaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.LeerEsquemaParametrosCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaCFDCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.ImportarXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.InicializarVariablesImportacionCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaWEBContabilizarCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.CrearConexionXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.EjecutarConsultaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.LeerEsquemaParametros(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaCFD(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.ImportarXML(System.String,System.Int16@)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.InicializarVariablesImportacion">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaWEBContabilizar(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.WSUNOEE.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.CrearConexionXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.CrearConexionXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.CrearConexionXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.EjecutarConsultaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.LeerEsquemaParametrosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.SiesaCFDCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.SiesaCFDCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.SiesaCFDCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.ImportarXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.ImportarXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.ImportarXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.ImportarXMLCompletedEventArgs.printTipoError">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.InicializarVariablesImportacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.SiesaWEBContabilizarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Entradas_TCE_Desde_TCO.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

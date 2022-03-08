@@ -1,0 +1,12 @@
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.vbprojAssemblyReference.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.Resources.resources
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.Upload_Pedidos_PEV.resources
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.vbproj.GenerateResource.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.vbproj.CoreCompileInputs.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\bin\Debug\Upload_Pedidos_PEV.exe.config
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\bin\Debug\Upload_Pedidos_PEV.exe
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\bin\Debug\Upload_Pedidos_PEV.pdb
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\bin\Debug\Upload_Pedidos_PEV.xml
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.exe
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.xml
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Upload_Pedidos_PEV\obj\Debug\Upload_Pedidos_PEV.pdb

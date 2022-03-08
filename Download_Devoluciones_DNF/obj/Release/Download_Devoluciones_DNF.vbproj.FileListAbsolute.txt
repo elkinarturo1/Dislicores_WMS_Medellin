@@ -1,0 +1,12 @@
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\bin\Release\Download_Devoluciones_DNF.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\bin\Release\Download_Devoluciones_DNF.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\bin\Release\Download_Devoluciones_DNF.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\bin\Release\Download_Devoluciones_DNF.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.vbproj.AssemblyReference.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.Download_Devoluciones_DNF.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Devoluciones_DNF\obj\Release\Download_Devoluciones_DNF.pdb

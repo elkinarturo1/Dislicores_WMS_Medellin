@@ -1,0 +1,11 @@
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\bin\Release\Download_Ensambles_ENS.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\bin\Release\Download_Ensambles_ENS.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\bin\Release\Download_Ensambles_ENS.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\bin\Release\Download_Ensambles_ENS.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.Download_Ensambles_ENS.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Ensambles_ENS\obj\Release\Download_Ensambles_ENS.pdb

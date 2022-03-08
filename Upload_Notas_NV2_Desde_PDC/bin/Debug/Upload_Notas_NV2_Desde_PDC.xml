@@ -1,0 +1,311 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Upload_Notas_NV2_Desde_PDC
+</name>
+</assembly>
+<members>
+<member name="T:Upload_Notas_NV2_Desde_PDC.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.GenerarPlanoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosDSCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasDSCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.GenerarPlanoXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.GenerarPlanoXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasXML(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasXMLAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasDS(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.ImportarDatosTablasDSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Data.DataSet,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSGT.wsGenerarPlano.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.GenerarPlanoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.GenerarPlanoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.GenerarPlanoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.GenerarPlanoXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.GenerarPlanoXMLCompletedEventArgs.strResultado">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasXMLCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasDSCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasDSCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasDSCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSGT.ImportarDatosTablasDSCompletedEventArgs.Path">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.#ctor">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.CrearConexionXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.EjecutarConsultaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.LeerEsquemaParametrosCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaCFDCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.ImportarXMLCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.InicializarVariablesImportacionCompleted">
+<remarks/>
+</member>
+<member name="E:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaWEBContabilizarCompleted">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.CrearConexionXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.CrearConexionXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.EjecutarConsultaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.EjecutarConsultaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.LeerEsquemaParametros(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.LeerEsquemaParametrosAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaCFD(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaCFDAsync(System.Int16,System.String,System.String,System.Int64,System.Int64,System.String,System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.ImportarXML(System.String,System.Int16@)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.ImportarXMLAsync(System.String,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.InicializarVariablesImportacion">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.InicializarVariablesImportacionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaWEBContabilizar(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.SiesaWEBContabilizarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Upload_Notas_NV2_Desde_PDC.WSUNOEE.WSUNOEE.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.CrearConexionXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.CrearConexionXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.CrearConexionXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.EjecutarConsultaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.EjecutarConsultaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.LeerEsquemaParametrosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.LeerEsquemaParametrosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.SiesaCFDCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.SiesaCFDCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.SiesaCFDCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.ImportarXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.ImportarXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.ImportarXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.ImportarXMLCompletedEventArgs.printTipoError">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.InicializarVariablesImportacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.SiesaWEBContabilizarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Upload_Notas_NV2_Desde_PDC.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Upload_Notas_NV2_Desde_PDC.WSUNOEE.SiesaWEBContabilizarCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

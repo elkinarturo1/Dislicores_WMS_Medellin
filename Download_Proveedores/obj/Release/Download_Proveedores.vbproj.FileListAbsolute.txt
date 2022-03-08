@@ -1,0 +1,23 @@
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\bin\Release\Download_Proveedores.exe.config
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\bin\Release\Download_Proveedores.exe
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\bin\Release\Download_Proveedores.pdb
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\bin\Release\Download_Proveedores.xml
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.Download_Proveedores.resources
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.Resources.resources
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.vbproj.GenerateResource.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.vbproj.CoreCompileInputs.cache
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.exe
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.xml
+D:\Repositorios\Dislicores_Proceso_Cerca_WMS_Real\Download_Proveedores\obj\Release\Download_Proveedores.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\bin\Release\Download_Proveedores.exe.config
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\bin\Release\Download_Proveedores.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\bin\Release\Download_Proveedores.pdb
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\bin\Release\Download_Proveedores.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.vbproj.AssemblyReference.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.Download_Proveedores.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.Resources.resources
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.vbproj.GenerateResource.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.exe
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.xml
+D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Proveedores\obj\Release\Download_Proveedores.pdb
