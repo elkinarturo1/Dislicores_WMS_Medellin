@@ -48,7 +48,7 @@
       <Value Profile="(Default)">DSN=SIESAPOB;Uid=GT;Pwd=D1sl1c0r3s;</Value>
     </Setting>
     <Setting Name="strConexionSQL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=192.168.0.54;Initial Catalog=WMS;User ID=sa;Password=Sa123456;Integrated Security=False</Value>
+      <Value Profile="(Default)">Data Source=192.168.0.54;Initial Catalog=WMS_Medellin;User ID=sa;Password=D1sl1c0r3s;Integrated Security=False</Value>
     </Setting>
   </Settings>
 </SettingsFile>

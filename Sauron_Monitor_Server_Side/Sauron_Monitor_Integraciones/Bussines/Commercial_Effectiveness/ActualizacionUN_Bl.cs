@@ -17,6 +17,69 @@ namespace Sauron_Monitor_Integraciones.Bussines.Commercial_Effectiveness
         string strConexion = "";
 
 
+        public RespuestaJson consultar_Clientes_x_Actualizar_Vendedor()
+        {
+            List<Clientes_Actualizar_Crit_Vendedor_Model> listadoDatos = new List<Clientes_Actualizar_Crit_Vendedor_Model>();
+            DataSet ds = new DataSet();
+            bool bitError = false;
+
+
+            try
+            {
+
+                ds = ActualizacionUN_DAO.sp_Proceso_1_Clientes_Vendedores_Select();
+                respuestaJson.resultado = ds.GetXml();
+
+            }
+            catch (Exception ex)
+            {
+                respuestaJson.bitError = true;
+                respuestaJson.resultado = ex.Message;
+            }
+
+
+
+            try
+            {
+                if (ds.Tables.Count > 0)
+                {
+                    if (ds.Tables[0].Rows.Count > 0)
+                    {
+                        foreach (DataRow registro in ds.Tables[0].Rows)
+                        {
+                            Clientes_Actualizar_Crit_Vendedor_Model objDatos = new Clientes_Actualizar_Crit_Vendedor_Model();
+
+                            objDatos.F200_ID_CIA = registro["F200_ID_CIA"].ToString();
+                            objDatos.F200_ROWID = registro["F200_ROWID"].ToString();
+                            objDatos.f200_id = registro["f200_id"].ToString();
+                            objDatos.F200_NIT = registro["F200_NIT"].ToString();
+                            objDatos.F200_RAZON_SOCIAL = registro["F200_RAZON_SOCIAL"].ToString();
+                            objDatos.F201_ID_SUCURSAL = registro["F201_ID_SUCURSAL"].ToString();
+                            objDatos.F201_DESCRIPCION_SUCURSAL = registro["F201_DESCRIPCION_SUCURSAL"].ToString();
+                            objDatos.idVendedor = registro["idVendedor"].ToString();
+                            objDatos.criterio_VEN = registro["criterio_VEN"].ToString();
+
+
+                            listadoDatos.Add(objDatos);
+
+                        }
+
+                    }
+                }
+
+                respuestaJson.datos = listadoDatos;
+                //respuestaJson.ds = ds;
+            }
+            catch (Exception ex)
+            {
+                respuestaJson.bitError = true;
+                respuestaJson.resultado = ex.Message;
+            }
+
+            return respuestaJson;
+        }
+
+
         public RespuestaJson consultarEquivalenciasUN()
         {
 

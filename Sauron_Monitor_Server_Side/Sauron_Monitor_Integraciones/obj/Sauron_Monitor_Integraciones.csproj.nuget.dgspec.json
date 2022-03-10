@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dislicores\\Dislicores Repositorios\\WMS_Produccion\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj": {}
+    "D:\\Dislicores\\Git-Dislicores\\Dislicores_WMS_Medellin\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj": {}
   },
   "projects": {
-    "D:\\Dislicores\\Dislicores Repositorios\\WMS_Produccion\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj": {
+    "D:\\Dislicores\\Git-Dislicores\\Dislicores_WMS_Medellin\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dislicores\\Dislicores Repositorios\\WMS_Produccion\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj",
+        "projectUniqueName": "D:\\Dislicores\\Git-Dislicores\\Dislicores_WMS_Medellin\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj",
         "projectName": "Sauron_Monitor_Integraciones",
-        "projectPath": "D:\\Dislicores\\Dislicores Repositorios\\WMS_Produccion\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj",
+        "projectPath": "D:\\Dislicores\\Git-Dislicores\\Dislicores_WMS_Medellin\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj",
         "packagesPath": "C:\\Users\\elkin.munoz\\.nuget\\packages\\",
-        "outputPath": "D:\\Dislicores\\Dislicores Repositorios\\WMS_Produccion\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\obj\\",
+        "outputPath": "D:\\Dislicores\\Git-Dislicores\\Dislicores_WMS_Medellin\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

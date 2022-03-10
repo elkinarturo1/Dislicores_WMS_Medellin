@@ -8,6 +8,36 @@ namespace Sauron_Monitor_Integraciones.DAO.Commercial_Effectiveness
     public static class ActualizacionUN_DAO
     {
 
+        public static DataSet sp_Proceso_1_Clientes_Vendedores_Select()
+        {
+            string strConexion = Leer_JSON.strConexion_Commercial_Effectiveness();
+            SqlConnection conexionSQL = new SqlConnection(strConexion);
+            SqlCommand comandoSQL = new SqlCommand();
+            SqlDataAdapter adaptador = new SqlDataAdapter();
+            DataSet ds = new DataSet();
+
+            try
+            {
+                comandoSQL.Connection = conexionSQL;
+                comandoSQL.CommandType = CommandType.StoredProcedure;
+                comandoSQL.CommandText = "sp_Proceso_1_Clientes_Vendedores_Select";
+
+                comandoSQL.Parameters.AddWithValue("@f200_id", -1);
+                comandoSQL.Parameters.AddWithValue("@F201_ID_SUCURSAL", -1);
+
+                adaptador.SelectCommand = comandoSQL;
+                adaptador.Fill(ds);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return ds;
+
+        }
+
+
         public static DataSet consultar_Equivalencias_UN()
         {
             string strConexion = Leer_JSON.strConexion_Commercial_Effectiveness();

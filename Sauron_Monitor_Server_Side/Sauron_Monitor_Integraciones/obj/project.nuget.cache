@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0hZIVNNeSf2hUEnimpgtwhtSzFDbjE9bQDhKU919R0AzInbmdf0E/5tiuWVwx/Umh7Dce2ykEJly7ZvgH6BNDg==",
+  "dgSpecHash": "+ecXDQn8e4jg9u/z+dYuilU+SvPLvVYlry9Z0fg8bPoJVFRALwfXPUW/SSY4dinP6kurajXdEefEc/srOFK1Ig==",
   "success": true,
-  "projectFilePath": "D:\\Dislicores\\Dislicores Repositorios\\WMS_Produccion\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj",
+  "projectFilePath": "D:\\Dislicores\\Git-Dislicores\\Dislicores_WMS_Medellin\\Sauron_Monitor_Server_Side\\Sauron_Monitor_Integraciones\\Sauron_Monitor_Integraciones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elkin.munoz\\.nuget\\packages\\bootstrap\\5.1.3\\bootstrap.5.1.3.nupkg.sha512",
     "C:\\Users\\elkin.munoz\\.nuget\\packages\\epplus\\5.8.6\\epplus.5.8.6.nupkg.sha512",

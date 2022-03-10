@@ -21,3 +21,15 @@ D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_SKU\obj\Release\Do
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_SKU\obj\Release\Download_SKU.exe
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_SKU\obj\Release\Download_SKU.xml
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_SKU\obj\Release\Download_SKU.pdb
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\bin\Release\Download_SKU.exe.config
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\bin\Release\Download_SKU.exe
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\bin\Release\Download_SKU.pdb
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\bin\Release\Download_SKU.xml
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.vbproj.AssemblyReference.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.Download_SKU.resources
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.Resources.resources
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.vbproj.GenerateResource.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.exe
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.xml
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_SKU\obj\Release\Download_SKU.pdb
