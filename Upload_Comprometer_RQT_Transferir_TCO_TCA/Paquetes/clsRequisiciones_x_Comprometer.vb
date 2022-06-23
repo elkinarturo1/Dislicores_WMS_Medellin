@@ -81,8 +81,6 @@ Public Class clsRequisiciones_x_Comprometer
         '//////////////////////////////////////////////////////////////////////////////////////////////////
         If bitError = False Then
             Try
-                'plano = ConsumoGT(78946, "WMS_REQUISICION_COMPROMISOS_RQT", objEnvio.cia, dsDatosGT, resultadoConsumoGT)
-
                 plano = ConsumoGT(110436, "WMS_REQUISICION_COMPROMISOS_RQT", objEnvio.cia, dsDatosGT, resultadoConsumoGT)
 
                 If (resultadoConsumoGT <> "Se genero el plano correctamente") Then

@@ -14,7 +14,7 @@
                     Dim numRequisicion As String = "-1"
 
                     'numordenExpedicion = -1
-                    numRequisicion = "-1"
+                    'numRequisicion = "18"
 
                     dsDatos = ModuloSQL.sp_WMS_UPLOAD_Transferencia_TCO_TCA_Desde_RQT(numordenExpedicion, numRequisicion)
 

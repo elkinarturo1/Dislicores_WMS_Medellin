@@ -22,3 +22,15 @@ D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debu
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.exe
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.xml
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.pdb
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.exe.config
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.exe
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.pdb
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\bin\Debug\Upload_Ajustes_AIC.xml
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.AssemblyReference.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.Resources.resources
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.Upload_Ajustes_AIC.resources
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.GenerateResource.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.exe
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.xml
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Upload_Ajustes_AIC\obj\Debug\Upload_Ajustes_AIC.pdb

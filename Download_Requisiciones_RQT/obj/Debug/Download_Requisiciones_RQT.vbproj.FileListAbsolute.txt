@@ -32,3 +32,15 @@ D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Requisiciones_RQT\
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.exe
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.xml
 D:\Dislicores\Dislicores Repositorios\WMS_Produccion\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.pdb
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\bin\Debug\Download_Requisiciones_RQT.exe.config
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\bin\Debug\Download_Requisiciones_RQT.exe
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\bin\Debug\Download_Requisiciones_RQT.pdb
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\bin\Debug\Download_Requisiciones_RQT.xml
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.vbproj.AssemblyReference.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.Download_Requisiciones_RQT.resources
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.Resources.resources
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.vbproj.GenerateResource.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.vbproj.CoreCompileInputs.cache
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.exe
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.xml
+D:\Dislicores\Git-Dislicores\Dislicores_WMS_Medellin\Download_Requisiciones_RQT\obj\Debug\Download_Requisiciones_RQT.pdb

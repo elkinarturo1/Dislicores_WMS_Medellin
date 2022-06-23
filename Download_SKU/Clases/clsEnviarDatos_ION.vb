@@ -13,17 +13,17 @@
 
                     Try
 
-                        strSKU = Left(registro.Item("sku_referencia").ToString, 15)
+                        strSKU = Left(registro.Item("sku_referencia").ToString, 50)
 
                         objDatos.SKU = strSKU
-                        objDatos.BUSR1 = Left(registro.Item("busr1_linprov").ToString, 15)
-                        objDatos.BUSR2 = Left(registro.Item("busr2_grup").ToString, 15)
-                        objDatos.BUSR3 = Left(registro.Item("busr3_cat").ToString, 15)
-                        objDatos.BUSR4 = Left(registro.Item("busr4_tipo").ToString, 15)
-                        objDatos.BUSR5 = Left(registro.Item("busr5_marca").ToString, 15)
+                        objDatos.BUSR1 = Left(registro.Item("busr1_linprov").ToString, 30)
+                        objDatos.BUSR2 = Left(registro.Item("busr2_grup").ToString, 30)
+                        objDatos.BUSR3 = Left(registro.Item("busr3_cat").ToString, 30)
+                        objDatos.BUSR4 = Left(registro.Item("busr4_tipo").ToString, 30)
+                        objDatos.BUSR5 = Left(registro.Item("busr5_marca").ToString, 30)
                         objDatos.STORERKEY = Left(registro.Item("storerkey_cia").ToString, 15)
-                        objDatos.DESCR = Left(registro.Item("descr_des").ToString, 15)
-                        objDatos.PACKKEY = Left(registro.Item("packkey_pack").ToString, 15)
+                        objDatos.DESCR = Left(registro.Item("descr_des").ToString, 60)
+                        objDatos.PACKKEY = Left(registro.Item("packkey_pack").ToString, 50)
                         objDatos.STDCUBE = Left(registro.Item("stdcube_vol_individual").ToString, 15)
                         objDatos.STDGROSSWGT = Left(registro.Item("stdgrosswgt_peso_individual").ToString, 15)
                         objDatos.STDNETWGT = Left(registro.Item("stdnetwgt_peso_individual").ToString, 15)

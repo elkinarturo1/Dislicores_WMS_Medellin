@@ -6,7 +6,7 @@
         Dim objGT As New WSGT.wsGenerarPlano
 
         Try
-            Dim rutaPlanos As String = "C:\inetpub\wwwroot\GTIntegrationWMS\Planos\"
+            Dim rutaPlanos As String = "C:\PlanosIntegracionesGT\"
             plano = objGT.GenerarPlanoXML(idDocumento, nombreDocumento, 2, cia, "gt", "gt", dsDatosGT, rutaPlanos, resultadoConsumoGT)
 
         Catch ex As Exception

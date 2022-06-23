@@ -95,8 +95,8 @@ Module ModuloSQL
             sqlComando.CommandText = "sp_WMS_UPLOAD_Transferencia_TCO_TCA_Desde_RQT"
             sqlComando.CommandTimeout = 0
 
-            sqlComando.Parameters.AddWithValue("@ordenExpedicion", ordenExpedicion)
-            sqlComando.Parameters.AddWithValue("@numRequisicion", numRequisicion)
+            'sqlComando.Parameters.AddWithValue("@ordenExpedicion", ordenExpedicion)
+            'sqlComando.Parameters.AddWithValue("@numRequisicion", numRequisicion)
 
             sqlConexion.Open()
             sqlAdaptador.SelectCommand = sqlComando

@@ -44,6 +44,7 @@
                                     'objEnvio.OEX = registro.Item("OEX").ToString
                                     objEnvio.RowId = "-1"
                                     objEnvio.OEX = "-1"
+                                    objEnvio.entidadDinamica = registro.Item("entidadDinamica").ToString()
 
                                     objEnvio.paquete = objEnvio.cia & "-" & objEnvio.co & "-" & objEnvio.tipoDoc & "-" & objEnvio.numDoc
 

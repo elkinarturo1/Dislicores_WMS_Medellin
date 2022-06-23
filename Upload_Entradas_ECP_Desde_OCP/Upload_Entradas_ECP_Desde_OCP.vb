@@ -13,7 +13,7 @@
                     Dim ordenCompra As String = "-1"
                     Dim ASN As String = "-1"
 
-                    'ordenCompra = "-1"
+                    'ordenCompra = "22310"
                     'ASN = "27344"
 
                     dsDatos = ModuloSQL.sp_WMS_UPLOAD_Entrada_ECP_desde_OCP(ordenCompra, ASN)

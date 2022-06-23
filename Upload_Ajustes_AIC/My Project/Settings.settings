@@ -18,7 +18,7 @@
       <Value Profile="(Default)">Wms2020</Value>
     </Setting>
     <Setting Name="strConexionSQL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=192.168.0.54;Initial Catalog=WMS;User ID=sa;Password=D1sl1c0r3s;Integrated Security=False</Value>
+      <Value Profile="(Default)">Data Source=192.168.0.54;Initial Catalog=WMS_Medellin;User ID=sa;Password=D1sl1c0r3s;Integrated Security=False</Value>
     </Setting>
     <Setting Name="numeroPaquetesCorte" Type="System.String" Scope="User">
       <Value Profile="(Default)">5</Value>

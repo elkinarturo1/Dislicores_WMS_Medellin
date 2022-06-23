@@ -10,7 +10,7 @@
                 'Paso 1 Captura de Datos
                 Try
                     Dim transaccion As String = "-1"
-                    transaccion = "49140000"
+                    'transaccion = "49140000"
 
                     dsDatos = ModuloSQL.sp_WMS_UPLOAD_Ajustes_AIC(transaccion)
                 Catch ex As Exception

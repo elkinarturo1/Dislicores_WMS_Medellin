@@ -23,7 +23,7 @@
             strXML_UNOEE &= "</Importar>" & Environment.NewLine
 
             Try
-                objWSUNOEE.Url = ModuloSQL.sp_A_Consultar_Url_WSUNOEE("OrdenCompra")
+                objWSUNOEE.Url = ModuloSQL.sp_A_Consultar_Url_WSUNOEE("TransferenciasTCO")
                 objWSUNOEE.Timeout = 120000
                 ds = objWSUNOEE.ImportarXML(strXML_UNOEE, resultadoUNOEE)
 

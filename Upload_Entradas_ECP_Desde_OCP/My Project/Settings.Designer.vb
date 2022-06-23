@@ -158,6 +158,18 @@ Namespace My
                 Return CType(Me("Upload_Entradas_ECP_Desde_OCP_WSUNOEE_WSUNOEE"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("E:\PlanosGT\")>  _
+        Public Property planosGT() As String
+            Get
+                Return CType(Me("planosGT"),String)
+            End Get
+            Set
+                Me("planosGT") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

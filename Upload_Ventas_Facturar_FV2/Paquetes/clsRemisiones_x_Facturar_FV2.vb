@@ -35,11 +35,11 @@ Public Class clsRemisiones_x_Facturar_FV2
                     strXML_GT &= "<f461_id_tercero_rem>" & registro.Item("id_Tercero_Remisionar").ToString & "</f461_id_tercero_rem>"
                     strXML_GT &= "<f461_id_sucursal_rem>" & registro.Item("id_Sucursal_Remisionar").ToString & "</f461_id_sucursal_rem>"
                     strXML_GT &= "<f461_id_tercero_vendedor>" & registro.Item("idTercero_vendedor").ToString & "</f461_id_tercero_vendedor>"
-                    strXML_GT &= "<f461_num_docto_referencia>" & Trim(Left(registro.Item("f460_num_docto_referencia").ToString.Replace(Chr(10), "").Replace(Chr(13), ""), 12)) & "</f461_num_docto_referencia>"
+                    strXML_GT &= "<f461_num_docto_referencia>" & Trim(registro.Item("f460_num_docto_referencia").ToString.Replace(Chr(10), "").Replace(Chr(13), "")) & "</f461_num_docto_referencia>"
                     strXML_GT &= "<f461_id_tipo_cli_fact>" & registro.Item("f460_id_tipo_cli_fact").ToString & "</f461_id_tipo_cli_fact>"
                     strXML_GT &= "<f461_id_co_fact>" & registro.Item("f460_id_co_fact").ToString & "</f461_id_co_fact>"
                     strXML_GT &= "<f461_id_cond_pago>" & registro.Item("f460_id_cond_pago").ToString & "</f461_id_cond_pago>"
-                    strXML_GT &= "<f461_notas>" & objEnvio.paquete & " - " & registro.Item("f430_Notas").ToString.Replace("&", "y") & "</f461_notas>"
+                    strXML_GT &= "<f461_notas>" & objEnvio.paquete & " - " & registro.Item("f430_Notas").ToString.Replace("&", "y").ToString.Replace(Chr(10), "").Replace(Chr(13), "") & "</f461_notas>"
                     strXML_GT &= "</DoctoVentasComercial>"
 
                 Next
@@ -113,7 +113,8 @@ Public Class clsRemisiones_x_Facturar_FV2
         If objEnvio.bitError = False Then
             Try
                 Dim resultadoConsumoGT As String = ""
-                plano = ConsumoGT(77819, "WMS_FACTURA_DESDE_REMISION", objEnvio.cia, dsDatosGT, resultadoConsumoGT)
+                'plano = ConsumoGT(77819, "WMS_FACTURA_DESDE_REMISION", objEnvio.cia, dsDatosGT, resultadoConsumoGT)
+                plano = ConsumoGT(124629, "WMS_FACTURA_DESDE_REMISION", objEnvio.cia, dsDatosGT, resultadoConsumoGT)
 
                 If (resultadoConsumoGT <> "Se genero el plano correctamente") Then
                     objEnvio.bitError = True
@@ -135,6 +136,27 @@ Public Class clsRemisiones_x_Facturar_FV2
         If objEnvio.bitError = False Then
             Try
                 CargasWSUNOEE(objEnvio.paquete, plano, objEnvio)
+            Catch ex As Exception
+                Throw ex
+            End Try
+        End If
+        '//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        '//////////////////////////////////////////////////////////////////////////////////////////////////
+        'Cargar UNOEE
+        If objEnvio.bitError = False Then
+            Try
+                If (objEnvio.entidadDinamica.Trim().Length() > 0) Then
+                    objEnvio.entidadDinamica = objEnvio.entidadDinamica.PadRight(2000, " ")
+                    plano = "<Datos>"
+                    plano &= "<Linea>000000100000001002</Linea>"
+                    plano &= $"<Linea>0000002075310020021001FV20020296205200000000000AdditionalDocumentReference   Additional Document Reference AdditionalDocumentReference   00000000000000000.0000000000{objEnvio.entidadDinamica}                                     G504_1  0000                                                                                                              </Linea>"
+                    plano &= "<Linea>000000399990001002</Linea>"
+                    plano &= "</Datos>"
+                    CargasWSUNOEE(objEnvio.paquete, plano, objEnvio)
+                End If
             Catch ex As Exception
                 Throw ex
             End Try

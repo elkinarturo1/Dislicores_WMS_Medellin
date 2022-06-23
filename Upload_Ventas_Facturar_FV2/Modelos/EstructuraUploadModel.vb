@@ -6,6 +6,7 @@
     Public Property tipoDoc As String = " "
     Public Property numDoc As String = " "
     Public Property OEX As String = " "
+    Public Property entidadDinamica As String = " "
     Public Property RowId As String = " "
     Public Property bitError As Boolean = False
     Public Property datosEnviadosGT As String = " "
